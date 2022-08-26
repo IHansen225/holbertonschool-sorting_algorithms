@@ -1,5 +1,13 @@
 #include "sort.h"
 
+/**
+ * selection_sort - selection_sort algorithm
+ * 
+ * @size: size of the array
+ * @array: array to sort
+ * Return: nothing
+ */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, pos;
