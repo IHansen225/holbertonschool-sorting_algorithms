@@ -2,7 +2,7 @@
 
 /**
  * insertion_sort_list - insertion sort list
- * 
+ *
  * @list: list to be sorted
  * Return: nothing
  */
