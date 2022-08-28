@@ -2,7 +2,7 @@
 
 /**
  * selection_sort - selection_sort algorithm
- * 
+ *
  * @size: size of the array
  * @array: array to sort
  * Return: nothing
@@ -20,7 +20,7 @@ void selection_sort(int *array, size_t size)
 		{
 			if (min > array[j])
 				min = array[j], pos = j;
-		}	
+		}
 		if (array[pos] == array[i])
 		{
 			min = pos = 0;
