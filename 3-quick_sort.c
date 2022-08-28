@@ -2,8 +2,8 @@
 
 /**
  * swap - swap numbers
- * 
- * @a: element 
+ *
+ * @a: element
  * @b: element
  * Return: nothing
  */
@@ -17,8 +17,8 @@ void swap(int *a, int *b)
 
 /**
  * partition - partitio algorithm
- * 
- * @high: top element 
+ *
+ * @high: top element
  * @low: first element
  * @array: array to be sorted
  * @realsize: original array length
@@ -26,7 +26,7 @@ void swap(int *a, int *b)
  */
 
 int partition(int array[], int low, int high, int realsize)
-{  
+{
 	int pivot = array[high];
 	int i = (low - 1), j;
 
@@ -36,17 +36,17 @@ int partition(int array[], int low, int high, int realsize)
 		{
 			i++;
 			swap(&array[i], &array[j]);
+			print_array(array, realsize);
 		}
 	}
 	swap(&array[i + 1], &array[high]);
-	print_array(array, realsize);
 	return (i + 1);
 }
 
 /**
  * realquickSort - selection_sort algorithm
- * 
- * @high: top element 
+ *
+ * @high: top element
  * @low: first element
  * @array: array to be sorted
  * @size: original array length
@@ -56,7 +56,7 @@ int partition(int array[], int low, int high, int realsize)
 void realquickSort(int array[], int low, int high, int size)
 {
 	int pi, realsize = size;
-  
+
 	if (low < high)
 	{
 		pi = partition(array, low, high, realsize);
@@ -67,7 +67,7 @@ void realquickSort(int array[], int low, int high, int size)
 
 /**
  * quick_sort - selection_sort algorithm
- * 
+ *
  * @size: size of the array
  * @array: array to sort
  * Return: nothing
