@@ -10,7 +10,6 @@
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *temp, *pos = *list, *pos2;
-	int m = 0;
 
 	for (pos = *list; pos->next; pos = pos->next)
 	{
