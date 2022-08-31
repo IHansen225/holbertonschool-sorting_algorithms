@@ -36,7 +36,7 @@ int partition(int array[], int low, int high, int realsize)
 		{
 			if (rec < j)
 			{
-				swap_arr(&array[rec], &array[j]);
+				swap(&array[rec], &array[j]);
 				print_array(array, realsize);
 			}
 			rec++;
@@ -44,7 +44,7 @@ int partition(int array[], int low, int high, int realsize)
 	}
 	if (array[rec] > pivot)
 	{
-		swap_arr(&array[rec], &array[high]);
+		swap(&array[rec], &array[high]);
 		print_array(array, realsize);
 	}
 	return (rec);
