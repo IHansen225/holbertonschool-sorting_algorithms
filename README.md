@@ -1,3 +1,18 @@
+## Repository: C - Sorting algorithms & Big O
+### Authors: [@Ihansen225](https://www.github.com/Ihansen225)
+Sorting algorithms + Big O research and testing project.
+### Tools used:
+- [Vim editor for Linux](https://www.vim.org/)
+- [Gcc compiler](https://gcc.gnu.org/) (using `-Wall -Werror -Wextra -pedantic -std=gnu89`)
+
+### Learning objectives:
+#### General
+-   At least four different sorting algorithms
+-   What is the Big O notation, and how to evaluate the time complexity of an algorithm
+-   How to select the best sorting algorithm for a given input
+-   What is a stable sorting algorithm
+
+### Project files:
 | File                                                                                                                            | Description                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [0-O](https://github.com/IHansen225/holbertonschool-sorting_algorithms/blob/main/0-O)                                           | Efficiency table for Ex0                                                                                           |
